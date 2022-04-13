@@ -1,5 +1,6 @@
-info = "We couldn't verify your mother's maiden name."
-intro = "Here is important information about your account security."
-
-first_name = 'Joffrey'
-greeting = 'Hello'
+name = input('Введите имя: ')
+age = int(input('Сколько Вам лет: '))
+name = 'Вас зовут: '+ name
+age = 2022 - age
+print(name)
+print(f'Вы родились в: {age} году!')

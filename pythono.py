@@ -1,6 +1,8 @@
 myname = input ('login?: ')
 mypass = input ('password?: ')
-if myname == 'ivan' and mypass == "pass123" :
-    print('hi Ivan')
+if (myname == 'Ivan' and mypass == "pass123") or (myname == 'ivan1' and mypass == "pass1234") :
+    print('Hi my dear friend, ' + myname+'.' + '\nYou are welcome!\n')
 else:
-    print('Fuck you!')
+    print('Ti xto takoy????')
+
+

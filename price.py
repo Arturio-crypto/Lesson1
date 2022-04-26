@@ -1,6 +1,3 @@
-from itertools import product
-
-
 def discounted(price, discount, max_discount = 40):
     price = abs(float(price))
     discount = abs(float(discount))

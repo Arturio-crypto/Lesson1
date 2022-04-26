@@ -1,8 +1,11 @@
-myname = input ('login?: ')
-mypass = input ('password?: ')
-if (myname == 'Ivan' and mypass == "pass123") or (myname == 'ivan1' and mypass == "pass1234") :
-    print('Hi my dear friend, ' + myname+'.' + '\nYou are welcome!\n')
-else:
-    print('Ti xto takoy????')
-
-
+age = int(input("Введите пожалуйста сколько Вам лет?: "))
+if age < 18:
+    print('Привет щщегол!')
+elif age < 40:
+    print('Добрый день!')
+elif age < 65:
+    print('Как там пенсия!')
+elif age < 80:
+    print('Ходишь в церковь?')
+elif age < 100:
+    print('Привык к земле?')
